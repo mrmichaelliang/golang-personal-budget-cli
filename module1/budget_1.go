@@ -1,12 +1,13 @@
 package module1
 
 // Budget stores budget information
-type Budget struct() {
-	var Max float32
-	var Items []Item
+type Budget struct {
+	Max   float32
+	Items []Item
 }
+
 // Item stores item information
-type Item struct() {
-	var Description string
-	var Price float32
+type Item struct {
+	Description string
+	Price       float32
 }
